@@ -116,9 +116,6 @@ johnsBike.color = "blue";
 johnsBike.height = 36;
 ```
 
-To further explain dot notation, consider the line `johnsBike.color = "blue";`. We are accessing
-the property `color` of the object `johnsBike` and trying to assign it to the word `blue`.
-
-But with the `private` access modifier now attached to the properties, we would no longer be able
+Now that we have the `private` access modifier attached to the properties, we would no longer be able
 to access `color` or `height` outside of the class. We would have to find another way to access
 these attributes.

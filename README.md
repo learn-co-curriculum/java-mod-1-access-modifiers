@@ -65,6 +65,9 @@ general principle, most variables should not be `public` and should instead be
 made available through "accessor methods", so that additional logic can be added
 to their handling without having to modify the code that accesses them.
 
+When we look at our `main` method, we see that it has the `public` access modifier.
+Therefore, it is accessible to another other class, including the JVM itself:
+
 `public main()`
 
 ## Default
